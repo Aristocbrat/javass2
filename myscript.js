@@ -13,7 +13,7 @@ function checkDataType(arraY) {
 
 let arraY1 = [0,1,2,3,4]
 console.log(checkDataType(arraY1))
-
+ 
 let arrray2 = ["please",33,3.45]
 console.log(checkDataType(arrray2))
 
@@ -51,8 +51,8 @@ function modifyArray(array){
     array[4]="u"
     return array
 }
-console.log(modifyArray(["a","e","i","o","vowels"]))
-console.log(modifyArray([1,2,3]))// to check if my "item not found condition is met"
+console.log(modifyArray(["a","e","i","o","vowels"]))// to replace "vowels" with "u"
+console.log(modifyArray([1,2,3]))// to check if my "item not found condition" is met
 
 // question 5
 const users = {
